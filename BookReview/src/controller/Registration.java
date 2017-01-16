@@ -14,7 +14,7 @@ import javax.servlet.http.HttpServletResponse;
 import connection.MyConnection;
 import constants.BookReviewConstants;
 import dao.RegistrationDAO;
-import mode.User;
+import model.User;
 
 /**
  * Servlet implementation class Registration

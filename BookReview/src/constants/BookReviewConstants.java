@@ -1,7 +1,7 @@
 package constants;
 
 public interface BookReviewConstants {
-	String USER_NAME = "username";
+	String USER_NAME = "userName";
 	String PASSWORD = "password";
 	String NAME = "name";
 	String MASTER_ID = "masterid";
@@ -11,7 +11,7 @@ public interface BookReviewConstants {
 	String STATUS_INACTIVE ="inactive";
 	String CREATION_DATE = "creationdate";
 	String CREATED_BY = "createdby";
-	String MODIFICATION_DATE = "modifiedby";
+	String MODIFICATION_DATE = "modificationdate";
 	String MODIFIED_BY = "modifiedby";
 	
 	String TITLE = "title";
