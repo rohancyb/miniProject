@@ -12,7 +12,7 @@ import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
 import dao.BookSearchDAO;
-import mode.Book;
+import model.Books;
 
 /**
  * Servlet implementation class SearchBook
@@ -20,7 +20,7 @@ import mode.Book;
 @WebServlet("/SearchBook")
 public class SearchBook extends HttpServlet {
 	Connection connect;
-	Book book;
+	Books book;
 	HttpSession session;
 	private static final long serialVersionUID = 1L;
        

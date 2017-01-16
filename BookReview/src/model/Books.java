@@ -1,6 +1,6 @@
-package mode;
+package model;
 
-public class Book {
+public class Books {
 	int bookid;
 	String title;
 	String author;
@@ -72,7 +72,10 @@ public class Book {
 	public void setDescription(String description) {
 		this.description = description;
 	}
-	public Book(int bookid, String title, String author, int genre, int status, String creationDate, int i,
+	public Books(){
+		
+	}
+	public Books(int bookid, String title, String author, int genre, int status, String creationDate, int i,
 			String modificationDate, int modifiedBy, String description) {
 		super();
 		this.bookid = bookid;

@@ -14,7 +14,7 @@ import javax.servlet.http.HttpSession;
 import connection.MyConnection;
 import constants.BookReviewConstants;
 import dao.LoginDao;
-import mode.User;
+import model.User;
 
 /**
  * Servlet implementation class LoginController
@@ -38,7 +38,7 @@ public class LoginController extends HttpServlet {
     public void init() throws ServletException {
     	try {
 			connection= new MyConnection().connect();
-		} catch (ClassNotFoundException | SQLException e) {
+		} catch (ClassNotFoundException e) {
 			
 			e.printStackTrace();
 		} 
@@ -65,7 +65,7 @@ public class LoginController extends HttpServlet {
 				request.getRequestDispatcher("./userHomePage.jsp").forward(request, response);
 		}else{
 			System.out.println("admin");
-			request.getRequestDispatcher("./AdminDashboard.jsp").forward(request, response);
+			request.getRequestDispatcher("./admin.jsp").forward(request, response);
 		}
 	} else {
 		System.out.println("invalid");

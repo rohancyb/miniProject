@@ -10,7 +10,7 @@ import java.util.Date;
 
 import connection.MyConnection;
 import constants.BookReviewConstants;
-import mode.User;
+import model.User;
 
 public class RegistrationDAO {
 		User user;

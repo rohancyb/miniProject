@@ -1,4 +1,4 @@
-package mode;
+package model;
 
 public class User {
 	String userName;

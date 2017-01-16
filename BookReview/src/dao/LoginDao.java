@@ -7,7 +7,7 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 
 import constants.BookReviewConstants;
-import mode.User;
+import model.User;
 
 public class LoginDao {
 	private User user;
@@ -44,7 +44,7 @@ public class LoginDao {
 			
 			
 			if (resultSet.next()) {
-				System.out.println("pata nai chalra"+resultSet.getInt("masterid"));
+				
 				if (BookReviewConstants.USER_TYPE == resultSet.getInt("masterid")) {
 					user.setType(BookReviewConstants.USER_TYPE);
 				} else {
