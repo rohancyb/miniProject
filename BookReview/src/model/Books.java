@@ -6,12 +6,37 @@ public class Books {
 	String author;
 	int genre;
 	int status;
-
+	String genreString;
 	String creationDate;
 	int createdBy;
 	String modificationDate;
 	int modifiedBy;
 	String description;
+	
+	public Books(){
+		
+	}
+	public Books(int id,String title, String author, String description, String genre) {
+		this.title = title;
+		this.description = description;
+		this.author = author;
+		this.bookid = id;
+		this.genreString = genre;
+	}
+	public Books(int bookid, String title, String author, int genre, int status, String creationDate, int i,
+			String modificationDate, int modifiedBy, String description) {
+		super();
+		this.bookid = bookid;
+		this.title = title;
+		this.author = author;
+		this.genre = genre;
+		this.status = status;
+		this.creationDate = creationDate;
+		this.createdBy = i;
+		this.modificationDate = modificationDate;
+		this.modifiedBy = modifiedBy;
+		this.description = description;
+	}
 	public int getBookid() {
 		return bookid;
 	}
@@ -72,24 +97,11 @@ public class Books {
 	public void setDescription(String description) {
 		this.description = description;
 	}
-	public Books(){
-		
+	public String getGenreString() {
+		//System.out.println(genre);
+		return genreString;
 	}
-	public Books(int bookid, String title, String author, int genre, int status, String creationDate, int i,
-			String modificationDate, int modifiedBy, String description) {
-		super();
-		this.bookid = bookid;
-		this.title = title;
-		this.author = author;
-		this.genre = genre;
-		this.status = status;
-		this.creationDate = creationDate;
-		this.createdBy = i;
-		this.modificationDate = modificationDate;
-		this.modifiedBy = modifiedBy;
-		this.description = description;
+	public void setGenreString(String genre) {
+		this.genreString = genre;
 	}
-	
-	
-
 }
