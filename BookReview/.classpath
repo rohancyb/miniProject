@@ -13,9 +13,11 @@
 			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="D:/MiniProject/MiniProject/BookReview/build/lib/junit4.jar"/>
-	<classpathentry kind="lib" path="D:/MiniProject/MiniProject/BookReview/build/lib/log4j.jar"/>
-	<classpathentry kind="lib" path="D:/MiniProject/MiniProject/BookReview/build/lib/mysql-connector-java-5.1.23-bin.jar"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="D:/Final/MiniProject/BookReview/lib/jsp-api.jar"/>
+	<classpathentry kind="lib" path="D:/Final/MiniProject/BookReview/lib/junit4.jar"/>
+	<classpathentry kind="lib" path="D:/Final/MiniProject/BookReview/lib/log4j.jar"/>
+	<classpathentry kind="lib" path="D:/Final/MiniProject/BookReview/lib/mysql-connector-java-5.1.23-bin.jar"/>
+	<classpathentry kind="lib" path="D:/Final/MiniProject/BookReview/lib/servlet-api.jar"/>
 	<classpathentry kind="output" path="build/classes"/>
 </classpath>

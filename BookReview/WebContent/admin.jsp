@@ -35,7 +35,9 @@
 </div>
 <div class="col-md-6" style="text-align: center;">
 	<p class="text-info">Click to view books</p>
-	<input type="button" name="View" value="View Books" formaction="./adminUpdate.jsp" />
+	<form action=""AdminUpdate.jsp">
+	<input type="submit" name="View" value="Update Books" formaction="AdminUpdate.jsp" />
+	</form>
 </div>
 </div>
 <div id="1" style="visibility:hidden; ">
